@@ -8,17 +8,17 @@ while True:
     y=int(y)
 
     if z=='+':
-        print('O resultado de x+y é igual a', x+y,'.')
+        print(f'O resultado de {x}+{y} é igual a', x+y,'.')
         
     elif z=='-':
-        print('O resultado de x-y é igual a',x-y)
+        print(f'O resultado de {x}-{y} é igual a',x-y)
 
     elif z=='*':
-        print('O resultado de x*y é igual a', x*y)
+        print(f'O resultado de {x}*{y} é igual a', x*y)
 
     elif z=='/':
-        print('O resultado de x/y é igual a', x/y)
+        print(f'O resultado de {x}/{y} é igual a', x/y)
 
     else:
-        print('Você precisa digitar uma das 4 operações.')
+        print(f'Você precisa digitar uma das 4 operações.')
         
